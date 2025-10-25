@@ -1,0 +1,6 @@
+London 120
+Bucharest 85
+Paris 95
+Tokyo 210
+NewYork 150
+Sydney 70
