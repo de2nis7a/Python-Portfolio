@@ -2,12 +2,9 @@
 # CONCEPT: Modular Graphics and Iterative Drawing
 # DEMONSTRATES: Reusing a complex modular function (draw_coloured_eye) within a loop 
 # to show different color variants based on a predefined list.
-# NOTE: Requires draw_coloured_eye helper function.
 
 from graphix import Window, Point
-# Assume draw_coloured_eye is available from draw_brown_eye_module.py
 
-# Define draw_coloured_eye here for file independence
 def draw_coloured_eye(win, centre, radius, colour):
     circle_one = Circle(centre, radius)
     circle_two = Circle(centre, radius // 2)

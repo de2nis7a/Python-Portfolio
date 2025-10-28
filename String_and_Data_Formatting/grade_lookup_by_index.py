@@ -8,7 +8,7 @@ def grade_test():
     grades = "FFFFCCBBAAA"
     mark = int(input("Enter a mark (between 0 and 10): "))
     
-    # Added validation to prevent IndexError
+    # Add validation to prevent IndexError
     if 0 <= mark < len(grades):
         grade = grades[mark]
         print(f"A mark of {mark} gives a grade of {grade}")

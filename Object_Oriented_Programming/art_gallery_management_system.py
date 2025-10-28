@@ -36,7 +36,6 @@ class Exhibition:
     def remove_art_piece(self, art_piece):
         self.pieces.remove(art_piece)
         
-    # NOTE: Calculated properties should be methods, not simple attributes
     @property
     def price(self):
         # Calculate price dynamically based on current pieces
@@ -121,8 +120,7 @@ def test_galley():
     piece2.increase_price(100)
     
     print(gallery) # Check updated total value
-    print(gallery.present_exhibition(2)) # Should say "already presented"
-    print(gallery.present_exhibition(1)) # Should print details and set to "presented"
-
+    print(gallery.present_exhibition(2)) 
+    print(gallery.present_exhibition(1)) # Present first exhibition
 if __name__ == "__main__":
     test_galley()

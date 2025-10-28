@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Shrinking Circles
 # DEMONSTRATES: Creating a 3D tunnel effect by drawing concentric circles that shrink 
 # in radius and shift their center simultaneously within a loop.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Circle
 

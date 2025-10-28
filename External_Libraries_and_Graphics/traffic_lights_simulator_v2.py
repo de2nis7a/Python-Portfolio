@@ -2,13 +2,12 @@
 # CONCEPT: Graphics, While Loop, and Time Control
 # DEMONSTRATES: Using a while True loop with time.sleep() to create a simple, sequential 
 # animation (traffic light cycle) by redrawing and changing colors.
-# NOTE: This file depends on the 'graphix' library.
 
 from graphix import Window, Circle, Point, Text
 import time
 
 def traffic_lights():
-    """Simulates a basic sequence of traffic lights (Red-Amber, Green, Amber, Red)."""
+    """Simulates a basic sequence of traffic lights (Red-Yellow, Green, Yellow, Red)."""
     win = Window("Traffic Lights", 200, 200)
     
     # Initialize light positions
@@ -26,7 +25,7 @@ def traffic_lights():
     green.draw(win)
     
     while True:
-        # 1. Red + Amber (Prepare to go)
+        # 1. Red + Yellow (Prepare to go)
         red.fill_colour = "red"
         amber.fill_colour = "yellow"
         green.fill_colour = "black"
@@ -38,7 +37,7 @@ def traffic_lights():
         green.fill_colour = "green"
         time.sleep(1.00)
         
-        # 3. Amber (Prepare to stop)
+        # 3. Yellow (Prepare to stop)
         red.fill_colour = "black"
         amber.fill_colour = "yellow"
         green.fill_colour = "black"

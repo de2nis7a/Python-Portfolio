@@ -2,6 +2,7 @@
 # CONCEPT: Point Object Manipulation
 # DEMONSTRATES: Creating a Point object, drawing it to the window (implicitly in graphix), 
 # reading user input to pause, and moving the point using the 'move' method.
+
 from graphix import Window, Point
 
 def draw_point():

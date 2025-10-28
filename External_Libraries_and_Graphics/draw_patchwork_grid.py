@@ -2,12 +2,9 @@
 # CONCEPT: Modular Programming and Composition (Complex Scene)
 # DEMONSTRATES: Creating a main function that calls multiple modular drawing functions 
 # (draw_patch_windowXv2) and uses nested loops to place them in a 2x3 grid pattern.
-# NOTE: This file assumes the existence of helper functions like draw_patch_window10v2 and draw_patch_window3v2.
 
 from graphix import Window, Point, Line, Rectangle
 
-# --- REQUIRED HELPER FUNCTIONS (assuming they are in this module or imported) ---
-# Function to draw Patch 10 style pattern at a specific location
 def draw_patch_window10v2(win, x, y, colour):
         point_one = Point(x, y)
         point_two = Point(100 + x, 10 + y)
@@ -26,7 +23,6 @@ def draw_patch_window10v2(win, x, y, colour):
             point_one.move(-10, 0)
             point_two.move(0, -10)
 
-# Function to draw Patch 3 style pattern at a specific location
 def draw_patch_window3v2(win, x, y, colour):
     point_one = Point(x, y)
     point_two = Point(100 + x, 100 + y)
@@ -41,7 +37,6 @@ def draw_patch_window3v2(win, x, y, colour):
         rectangle.draw(win)
         point_one.move(5, 5)
         point_two.move(-5, -5)
-# ---------------------------------------------------------------------------------
 
 
 def draw_patchwork():

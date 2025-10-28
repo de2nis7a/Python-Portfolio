@@ -2,6 +2,7 @@
 # CONCEPT: Basic Shape Drawing
 # DEMONSTRATES: Setting up a graphics window and drawing a static line segment 
 # between two predefined coordinates (Points). Waits for user input before closing.
+
 from graphix import Window, Point, Line
 
 def draw_line():

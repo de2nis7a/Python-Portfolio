@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Nested Loops
 # DEMONSTRATES: Using nested loops to draw repeating patterns of lines (grid) and text (hi!) 
 # within a defined area.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Line, Text
 

@@ -10,6 +10,5 @@ def personalized_recommendation():
     media_type = input("What's your favorite media type (film, music, or game)? ")
     
     print("Hi", name, "! We love", media_type, "too!")
-    # Note: Assumes discount logic is handled elsewhere, focuses only on the message.
     print("As you're", age, ", you might enjoy our", age, "% birthday discount!")
     print("Check out our", media_type, "section for great deals!")

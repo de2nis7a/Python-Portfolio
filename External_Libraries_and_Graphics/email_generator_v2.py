@@ -9,7 +9,5 @@ def generate_email ():
     string = "@myport.ac.uk"
     
     # Logic: first 4 chars of forename + dot + lowercase surname + dot + 2-digit year
-    # NOTE: The original logic in the code was slightly inconsistent with university standards 
-    # (mixing forename slice with surname lowercase). This implementation reflects the user's code structure.
     email = forename[:4] + "." + surname.lower() + "." + year[2:] + string  
     print(email)

@@ -2,7 +2,6 @@
 # CONCEPT: External Library Usage - Shape Overlap and Color
 # DEMONSTRATES: Drawing and layering different geometric shapes (Rectangle and Circle) 
 # and setting their fill colors to show rendering order.
-# NOTE: Requires the 'graphix' library to be installed.
 
 from graphix import Window, Point, Circle, Rectangle
 

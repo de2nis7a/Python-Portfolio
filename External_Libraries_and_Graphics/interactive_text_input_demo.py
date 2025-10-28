@@ -15,7 +15,7 @@ def text_input_interaction():
     message = Text(Point(200, 50), "Enter your name:")  
     message.draw(win)
     
-    # Wait for the user to click (signaling they're done typing)
+    # Wait for the user to click to submit input
     win.get_mouse()                         
     
     # Retrieve the text from the input box

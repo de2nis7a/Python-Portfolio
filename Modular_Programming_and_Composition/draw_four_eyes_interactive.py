@@ -2,12 +2,10 @@
 # CONCEPT: Modular Programming and Repetitive Graphics
 # DEMONSTRATES: Using a loop to repeatedly prompt the user for input and calling a modular
 # eye-drawing function to create a complex scene with multiple pairs of eyes.
-# NOTE: Requires the draw_brown_eye function to be available (e.g., from draw_brown_eye_module.py).
 
 from graphix import Window, Point
 # Assuming draw_brown_eye is available
-# from draw_brown_eye_module import draw_brown_eye, distance_between_points 
-# ... and distance_between_points is available
+# from draw_brown_eye_module import draw_brown_eye, distance_between_points and distance_between_points is available
 
 # Define required helper functions inline for independence (draw_coloured_eye)
 def draw_coloured_eye(win, centre, radius, colour):

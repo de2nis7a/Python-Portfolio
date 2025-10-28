@@ -4,7 +4,6 @@
 # (Rectangle and Circle) and two different colors based on the checkerboard logic (i+j)%2.
 from graphix import Window, Circle, Point, Rectangle
 
-# Constants (Assumed based on previous code)
 WIN_SIZE = 500
 WIDTH = 100
 HEIGHT = 100

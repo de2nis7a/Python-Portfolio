@@ -2,7 +2,6 @@
 # CONCEPT: External Library Usage - Graphics and Control Flow
 # DEMONSTRATES: Using a 'for' loop to draw multiple geometric shapes (Circles) in a series,
 # with centers calculated based on the loop counter (i) and user input (mouse click).
-# NOTE: Requires the 'graphix' library to be installed.
 
 from graphix import Window, Point, Circle
 

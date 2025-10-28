@@ -46,7 +46,6 @@ class DigitalBook(Book):
             # Adds the new device to the set of compatible devices
             self._compatibility.add(new_compatibility)
         
-    # Digital books are always "available" but the methods are kept for polymorphism
     def borrow_book(self):
         pass
 

@@ -2,9 +2,9 @@
 # CONCEPT: Conditional Drawing and Diagonal Logic
 # DEMONSTRATES: Using the geometric condition (X == Y) inside nested loops to draw 
 # shapes (Circles) only along the main diagonal of a grid.
+
 from graphix import Window, Circle, Point, Rectangle
 
-# Constants (Assumed based on previous code and context)
 SCREEN = 500
 TILE = 100
 RADIUS = 50

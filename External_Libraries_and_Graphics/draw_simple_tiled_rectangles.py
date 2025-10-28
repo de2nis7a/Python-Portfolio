@@ -2,9 +2,9 @@
 # CONCEPT: Nested Loops for Grid Drawing
 # DEMONSTRATES: Using two nested 'for' loops to iterate over rows and columns, 
 # calculating the coordinates (p1 and p2) for each cell in a 5x5 grid.
+
 from graphix import Window, Rectangle, Point
 
-# Constants (Assumed based on previous code)
 WIN_SIZE = 500
 WIDTH = 100
 HEIGHT = 100

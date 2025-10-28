@@ -10,6 +10,5 @@ def distance_between_points():
     x_2 = int(input("Second point's first coordinate is: "))
     y_2 = int(input("Second point's second coordinate is: "))
     
-    # Distance formula: sqrt((y2 - y1)^2 + (x2 - x1)^2)
     distance = math.sqrt((y_2 - y_1) ** 2 + (x_2 - x_1) ** 2)
     print(f"The distance between the points is: {distance}")

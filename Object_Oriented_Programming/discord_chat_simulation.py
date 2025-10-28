@@ -68,7 +68,6 @@ class Message:
         
     def view_message(self, message):
         if message in self.user.messages_received:
-            # Placeholder for actual message content
             return f"\n Message {message} for {self.user._id}: 'Wanted to say hi!' \n"
         
     def receive_message(self, new_message_text="mX"):

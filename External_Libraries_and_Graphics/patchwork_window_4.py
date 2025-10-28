@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Complex Rectangle Movement
 # DEMONSTRATES: Drawing a stack of rectangles where one corner moves diagonally 
 # while the other moves only vertically, creating a stepped pattern.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Rectangle
 

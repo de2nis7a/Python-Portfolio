@@ -2,6 +2,7 @@
 # CONCEPT: Centering and Dynamic Coordinate Calculation
 # DEMONSTRATES: Calculating the top-left starting point of a shape based on the 
 # window size (400x400) and user-defined width/height to ensure the shape is centered.
+
 from graphix import Window, Rectangle, Point
 
 def draw_rectangle():

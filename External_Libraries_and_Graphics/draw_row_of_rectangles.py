@@ -2,9 +2,9 @@
 # CONCEPT: Drawing with Loops, Coordinate Calculation, and Conditional Logic
 # DEMONSTRATES: Generating a row of rectangles using calculated coordinates inside a loop 
 # (i * WIDTH), and using an if/else conditional (ternary operator) to alternate colors.
+
 from graphix import Window, Rectangle, Point
 
-# Constants used for the window and the size of each rectangle
 WIN_SIZE = 500
 WIDTH = 100
 HEIGHT = 100

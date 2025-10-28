@@ -2,6 +2,7 @@
 # CONCEPT: I/O Applied to Graphics
 # DEMONSTRATES: Reading an integer input from the user (radius) and using that 
 # value to dynamically define the dimensions of a drawn shape (Circle).
+
 from graphix import Window, Circle, Point
 
 def draw_circle():

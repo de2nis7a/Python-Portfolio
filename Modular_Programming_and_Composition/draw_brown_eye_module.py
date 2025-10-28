@@ -2,7 +2,6 @@
 # CONCEPT: Modular Programming and Function Composition (Graphics)
 # DEMONSTRATES: Breaking down a complex shape (an eye) into multiple modular functions 
 # that can be reused and composed into larger scenes (a pair of eyes, or four pairs).
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Circle, Point
 
@@ -43,7 +42,7 @@ def draw_pair_of_brown_eyes():
     win.get_mouse()
     win.close()
 
-# Calls for drawing four pairs of eyes (Task 9)
+# Calls for drawing four pairs of eyes
 def draw_four_pairs_of_brown_eyes():
     """Draws four pairs of eyes based on user clicks, demonstrating reuse."""
     # Requires distance_between_points from Math_and_Geometric_Calculations/distance_calculator_module.py
@@ -58,7 +57,6 @@ def draw_four_pairs_of_brown_eyes():
        
        # This is where the distance_between_points module is needed. 
        # For local run, you'd need to import it or define it here.
-       # For portfolio, we document the dependency.
        # distance = distance_between_points(centre, circumference) 
        
        # For demonstration, we'll use a fixed radius calculation based on X coordinates

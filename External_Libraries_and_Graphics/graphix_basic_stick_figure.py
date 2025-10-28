@@ -1,7 +1,6 @@
 # FILE: graphix_basic_stick_figure.py
 # CONCEPT: External Library Usage - Drawing Multiple Shapes
 # DEMONSTRATES: Drawing two distinct shapes (Circle for head, Line for body) to create a simple composite figure.
-# NOTE: Requires the 'graphix' library to be installed.
 
 from graphix import Window, Circle, Point , Line
 

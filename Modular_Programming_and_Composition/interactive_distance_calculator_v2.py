@@ -2,8 +2,6 @@
 # CONCEPT: Modular Programming and External I/O
 # DEMONSTRATES: Integration of a mathematical function (distance_between_points)
 # with an external I/O system (graphix Window) to create an interactive tool.
-# NOTE: This file requires the distance_between_points function to be available 
-# (e.g., from Math_and_Geometric_Calculations/distance_calculator_module.py).
 
 from graphix import Window, Point, Text
 import math

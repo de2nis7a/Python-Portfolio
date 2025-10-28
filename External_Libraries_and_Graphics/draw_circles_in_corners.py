@@ -2,9 +2,9 @@
 # CONCEPT: Conditional Drawing and Data Structures (Tuples and Lists)
 # DEMONSTRATES: Using a list of specific coordinates (tuples) to conditionally draw 
 # a shape (Circle) only at predefined locations within a nested loop grid.
+
 from graphix import Window, Circle, Point, Rectangle
 
-# Constants (Assumed based on previous code and context)
 SCREEN = 500
 TILE = 100
 RADIUS = 50

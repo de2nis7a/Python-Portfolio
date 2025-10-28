@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Nested Loops (Complex Lines)
 # DEMONSTRATES: Generating a complex, interwoven line pattern by carefully moving 
 # start and end points in opposing directions within a loop.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Line
 

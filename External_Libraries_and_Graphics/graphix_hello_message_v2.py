@@ -2,6 +2,7 @@
 # CONCEPT: External Library Initialization and Text Output
 # DEMONSTRATES: Setting up a graphics window, drawing text at a specific coordinate, 
 # and waiting for mouse input before closing.
+
 from graphix import Window, Point, Text
 
 def hello_graphix():

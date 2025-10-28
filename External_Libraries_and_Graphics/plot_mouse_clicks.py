@@ -2,6 +2,7 @@
 # CONCEPT: Mouse Interaction and Coordinate Display
 # DEMONSTRATES: Using a fixed 'for' loop (10 iterations) to wait for mouse clicks (get_mouse), 
 # and displaying the x,y coordinates of each click on the graphics window as a Text object.
+
 from graphix import Window, Point, Text
 
 def plot_clicks():

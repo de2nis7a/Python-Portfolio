@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Cross-Hatching Lines
 # DEMONSTRATES: Creating a complex hatch pattern by drawing multiple sets of lines 
 # where endpoints move symmetrically in opposite directions.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Line
 

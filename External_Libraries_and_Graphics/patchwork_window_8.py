@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Nested Loops (Checkerboard Pattern)
 # DEMONSTRATES: Using nested loops with a conditional (modulo arithmetic) to draw 
 # a checkerboard pattern of circles with alternating colors.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Circle
 
@@ -16,7 +15,6 @@ def draw_patch_window8():
              centre = Point(x, y)
              circle = Circle(centre, radius)
              
-             # Conditional coloring based on row index (pas)
              if pas % 2 == 0:
                  circle.fill_colour = "red"
                  circle.outline_colour = "red"

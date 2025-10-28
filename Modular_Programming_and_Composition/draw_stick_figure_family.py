@@ -2,7 +2,6 @@
 # CONCEPT: Modular Programming and Function Composition (Graphics)
 # DEMONSTRATES: Reusability of a drawing function (draw_stick_figure) with different 
 # parameters (position and size) to create a complex scene (a family).
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Line, Circle
 
@@ -16,7 +15,7 @@ def draw_stick_figure(win, position, size):
     body = Line(body_start, body_end)
     body.draw(win)
     
-    # Hands (simplified relative to size)
+    # Hands
     hands = Line(Point(position.x - size , position.y + size + 10), Point(position.x + size, position.y + size + 10))
     hands.draw(win)
     

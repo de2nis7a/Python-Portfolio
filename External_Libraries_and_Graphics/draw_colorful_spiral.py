@@ -2,6 +2,7 @@
 # CONCEPT: Loops and Dynamic Drawing
 # DEMONSTRATES: Using a 'for' loop to iterate and change the properties (position, 
 # radius, and color) of a shape (Circle), creating a dynamic visual pattern.
+
 from graphix import Window, Circle, Point
 
 def draw_spiral():

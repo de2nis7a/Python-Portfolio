@@ -3,7 +3,6 @@
 # DEMONSTRATES: Using a while loop to ensure the mark is in a valid range (0-20) 
 # before calling a helper function to determine the grade.
 
-# Define helper function inline for file independence (assumed to be available)
 def calculate_grade(mark):
     """Calculates a grade based on a 20-point mark scale."""
     if mark >= 16:

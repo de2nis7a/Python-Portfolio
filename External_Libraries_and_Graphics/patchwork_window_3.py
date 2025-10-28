@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Loop with Shrinking Shapes
 # DEMONSTRATES: Creating a target-like effect using a loop that draws and shrinks rectangles 
 # from the corners inwards, alternating colors.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Rectangle
 

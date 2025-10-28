@@ -2,7 +2,6 @@
 # CONCEPT: External Library Usage - Layering and Coloring
 # DEMONSTRATES: Drawing multiple overlapping shapes (circles) with different colors and sizes 
 #               to create a visual target, showing drawing order (largest to smallest).
-# NOTE: Requires the 'graphix' library to be installed and run in a compatible environment.
 
 from graphix import Window, Circle, Point
 

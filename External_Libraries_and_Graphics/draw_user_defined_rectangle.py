@@ -2,7 +2,6 @@
 # CONCEPT: External Library Usage - Geometric Calculation and Drawing
 # DEMONSTRATES: Calculating coordinates based on user input (height/width) 
 #               to center a rectangle on the screen.
-# NOTE: Requires the 'graphix' library to be installed and run in a compatible environment.
 
 from graphix import Window, Point , Rectangle
 

@@ -2,7 +2,6 @@
 # CONCEPT: External Library Usage - Basic Graphics Programming (graphix)
 # DEMONSTRATES: Using the 'graphix' library to draw multiple basic shapes (Circle and Line) 
 #               to create a composite figure.
-# NOTE: Requires the 'graphix' library to be installed and run in a compatible environment.
 
 from graphix import Window, Circle, Point , Line
 

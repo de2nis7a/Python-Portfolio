@@ -16,9 +16,6 @@ class HotelRoom:
             self.guest_name = ""
         
     def is_occupied(self, name):
-        # NOTE: The logic here is slightly inconsistent with the method signature.
-        # A simpler check is just: 'return self.guest_name != ""' 
-        # But we maintain the original logic for fidelity.
         if self.guest_name == "":
             return False
         elif self.guest_name == name:

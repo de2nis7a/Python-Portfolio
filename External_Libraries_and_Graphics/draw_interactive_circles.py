@@ -2,6 +2,7 @@
 # CONCEPT: Infinite Loop and Mouse Interaction
 # DEMONSTRATES: Using a 'while True' loop to continuously check for mouse clicks (get_mouse) 
 # and drawing a new shape (Circle) at the clicked location.
+
 from graphix import Window, Circle, Point
 
 def interactive_circle_drawing():

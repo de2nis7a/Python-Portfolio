@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Complex Rectangle Movement V2
 # DEMONSTRATES: Drawing a series of rectangles where both corners move diagonally 
 # and identically, creating a repeating diagonal element.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Rectangle
 

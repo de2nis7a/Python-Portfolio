@@ -2,6 +2,7 @@
 # CONCEPT: User Input to Create Complex Shapes (Polygons)
 # DEMONSTRATES: Using a 'for' loop and user input to collect multiple Point objects, 
 # storing them in a list, and then passing that list to the Polygon constructor.
+
 from graphix import Window, Point, Polygon
 
 def draw_custom_shape():

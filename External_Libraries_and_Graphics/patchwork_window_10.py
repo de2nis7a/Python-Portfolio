@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Line Hatching (Opposite Corners)
 # DEMONSTRATES: Drawing a line pattern where two sets of lines are drawn using 
 # opposing point movements, creating a complex V-shaped texture.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Line
 

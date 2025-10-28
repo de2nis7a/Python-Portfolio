@@ -13,5 +13,4 @@ def distance_between_points(p1,p2):
     distance = math.sqrt((p2.y - p1.y) ** 2 + (p2.x - p1.x) ** 2)
     return distance
 
-# Note: The distance_calculator and draw_four_pairs_of_brown_eyes functions 
-# which use this are placed in a different folder (Modular_Programming) as they involve graphics.
+

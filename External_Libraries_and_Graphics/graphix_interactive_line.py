@@ -1,8 +1,6 @@
 # FILE: graphix_interactive_line.py
 # CONCEPT: External Library Usage - User Interaction (Mouse Input)
 # DEMONSTRATES: Capturing mouse clicks (I/O) to define the coordinates of points and dynamically drawing a line between them.
-# NOTE: Requires the 'graphix' library to be installed.
-
 from graphix import Window, Point, Text, Line
 
 def draw_line():

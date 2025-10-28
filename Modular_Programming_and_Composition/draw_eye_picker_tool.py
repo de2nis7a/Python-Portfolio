@@ -2,7 +2,6 @@
 # CONCEPT: Modular Programming, Graphics, and Input Validation
 # DEMONSTRATES: Using a modular helper function (draw_coloured_eye) and implementing 
 # robust input validation (coordinates and color list check) before drawing.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Circle, Point
 import random

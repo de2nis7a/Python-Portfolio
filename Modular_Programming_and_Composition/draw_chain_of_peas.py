@@ -2,7 +2,6 @@
 # CONCEPT: Graphics Loop and Dynamic Window Sizing
 # DEMONSTRATES: Using a 'for' loop to draw a sequence of objects and calculating 
 # the required window size based on the user's input quantity.
-# NOTE: This file depends on the 'graphix' library.
 
 from graphix import Window, Circle, Point
 

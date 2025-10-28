@@ -4,7 +4,7 @@
 #               and controlling output precision.
 
 def rainfall_in_inches():
-    # NOTE: Assumes 'rainfall.txt' contains lines like 'CityName 15' (in mm)
+    
     try:
         with open("rainfall.txt", "r") as input_file:
             lines = input_file.readlines()

@@ -9,7 +9,6 @@ def read_quote():
     # NOTE: This code assumes there is a subdirectory named 'text_files'
     # and a file named 'quotation.txt' inside it for the demonstration.
     
-    # Temporarily change directory to access the file
     try:
         os.chdir("text_files")
         print("Current directory:\t" + os.getcwd())

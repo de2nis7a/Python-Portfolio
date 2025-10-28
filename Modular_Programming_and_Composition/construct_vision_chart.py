@@ -2,7 +2,6 @@
 # CONCEPT: Modular Programming and Data Formatting
 # DEMONSTRATES: Using a helper function to format data (text spacing) and a main function 
 # to control the flow and visualization (decreasing font size for a vision chart).
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Text
 

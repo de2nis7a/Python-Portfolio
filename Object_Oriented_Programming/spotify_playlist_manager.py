@@ -36,7 +36,6 @@ class Playlist:
             self.remove_song(song)
             # index - 1 to convert 1-based index to 0-based
             self.songs.insert(index - 1, song) 
-            # NOTE: Removed the redundant self.add_song(song) call as it was already added by insert
 
     def duration(self):
         total_min = 0

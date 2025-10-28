@@ -3,7 +3,7 @@
 # DEMONSTRATES: Using an instance of another class (MyPoint) as the 'centre' attribute 
 #               and defining basic geometric properties.
 
-from geometric_point import MyPoint # Requires MyPoint class from geometric_point.py
+from geometric_point import MyPoint 
 
 class Circle:
     def __init__(self, centre, radius):
@@ -19,7 +19,6 @@ class Circle:
         return f"Circle({self.centre.x}, {self.centre.y}), {self.radius})"
     
 def test_circle():
-    # To run this test, you must have the MyPoint class defined (e.g., imported from geometric_point.py)
     p = MyPoint(50, 150)
     radius = 50
     circle = Circle(p, radius)
@@ -31,5 +30,4 @@ def test_circle():
     print("circles's outline colour is", circle.outline_colour)
         
 if __name__ == "__main__":
-    # Note: To run this file independently, geometric_point.py must be in the same folder.
     test_circle()

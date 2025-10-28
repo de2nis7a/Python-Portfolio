@@ -31,8 +31,6 @@ class Square:
         centre = MyPoint(centre_x, centre_y)
         return f"Square's centre is {centre}"
     
-    # NOTE: The original function accepted 'side' as an argument, which is unnecessary
-    # as 'side' is already an attribute (self.side). We maintain the original structure.
     def get_area(self, side):
         return f"Area is {side * side}"
         
@@ -40,7 +38,6 @@ class Square:
         return f"Square({self.p1}, {self.p2})"
     
 def test_square():
-    # To run this test, you must have the MyPoint class defined (e.g., imported from geometric_point.py)
     p = MyPoint(100, 50)
     square = Square(p, 50)
 
@@ -76,5 +73,4 @@ def test_square():
     print(square.get_centre())
 
 if __name__ == "__main__":
-    # Note: To run this file independently, geometric_point.py must be in the same folder.
     test_square()

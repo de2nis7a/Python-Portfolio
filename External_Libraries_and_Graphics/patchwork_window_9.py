@@ -2,7 +2,6 @@
 # CONCEPT: Graphics and Shrinking Rectangles V2
 # DEMONSTRATES: Drawing a shrinking rectangle pattern with one corner fixed and the 
 # other moving diagonally, while alternating colors.
-# NOTE: This file depends on a graphics library (graphix).
 
 from graphix import Window, Point, Rectangle
 
