@@ -13,6 +13,7 @@ The code is categorized into focused directories, showing a progressive understa
 
 
 # Primary Concepts Demonstrated
+Each folder contains scripts demonstrating the following core Python skills:
 
 * [BasicsAndControlFlow](./Basics_and_Control_Flow)
 
