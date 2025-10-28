@@ -1,54 +1,67 @@
-# Python-Portfolio
-A collection of focused Python algorithms and data structures designed to showcase fundamental and intermediate programming skills in logic and analysis.
+# 🐍 Python-Portfolio
+A curated collection of Python algorithms and data structures showcasing fundamental and intermediate programming concepts in logic, algorithms, and software design.
 
-# Python Fundamentals and Intermediate Portfolio
+# 💡 Python Fundamentals and Intermediate Portfolio
 
-This repository is a comprehensive collection of Python scripts designed to showcase proficiency in fundamental and intermediate programming concepts, including Object-Oriented Programming (OOP), algorithms, data processing, and graphical interaction.
+This repository is a comprehensive collection of Python scripts developed to demonstrate proficiency across core programming concepts — from control flow and algorithms to OOP systems and graphical programming.
 
-The projects are organized by technical domain to provide demonstrable proof of competency to technical recruiters and hiring managers.
+The codebase is organized by technical domain, offering clear evidence of structured problem-solving and clean code design for technical recruiters and hiring managers.
 
-# Repository Structure and Demonstrated Skills
+---
 
-The code is categorized into focused directories, showing a progressive understanding of Python principles:
+## 📁 Repository Structure and Demonstrated Skills
 
+Each folder in this portfolio highlights a specific area of Python expertise, progressing from foundational principles to applied programming.
 
-# Primary Concepts Demonstrated
-Each folder contains scripts demonstrating the following core Python skills:
+---
 
-* [BasicsAndControlFlow](./Basics_and_Control_Flow)
+### 1. 🧩 [Basics and Control Flow](./Basics_and_Control_Flow)
+Demonstrates basic input/output, arithmetic operations, conditional statements (`if` / `elif` / `else`), and iterative loops (`for`, `while`).
 
-Basic I/O, arithmetic, conditional logic (if/elif/else), and fundamental loops (for, while).
+---
 
-* [MathAndGeometricCalculations](./Math_and_Geometric_Calculations)
+### 2. 📐 [Math and Geometric Calculations](./Math_and_Geometric_Calculations)
+Showcases the use of the `math` library for trigonometric calculations, square roots, and solving geometric problems such as distance and area formulas.
 
-Use of the math library for trigonometry, square roots, and solving geometric formulas (e.g., distance, area).
+---
 
-* [StringAndDataFormatting](./String_and_Data_Formatting)
+### 3. 🧵 [String and Data Formatting](./String_and_Data_Formatting)
+Demonstrates advanced string manipulation (`slicing`, `split()`, `upper()`), formatted output, and parsing structured text data.
 
-Advanced string manipulation (slicing, split(), upper()), output formatting, and basic data parsing.
+---
 
-* [AlgorithmsAndLogic](./Algorithms_and_Logic)
+### 4. 🔢 [Algorithms and Logic](./Algorithms_and_Logic)
+Implements classic algorithms like Fibonacci sequences and coin change problems, alongside logic-based puzzles and probability simulations (e.g., dice rolls, random walks).
 
-Implementation of classic algorithms (Fibonacci, coin change), logic puzzles, and simple statistical simulations (random walks, dice rolls).
+---
 
-* [ObjectOrientedProgramming](./Object_Oriented_Programming)
+### 5. 🧱 [Object-Oriented Programming](./Object_Oriented_Programming)
+Features OOP implementations using classes, inheritance, and composition. Projects model real-world systems such as a **Library**, **Sales Manager**, **Student System**, and **Pizza Ordering App**.
 
-OOP Systems: Implementation of classes, properties (@property), inheritance, and composition to model real-world systems (Library, Sales, Student Management, Pizza).
+---
 
-* [ExternalLibrariesAndGraphics](./External_Libraries_and_Graphics)
+### 6. 🎨 [External Libraries and Graphics](./External_Libraries_and_Graphics)
+Demonstrates integration with external libraries like **Graphix** to create interactive graphics, animations, and coordinate-based drawings (e.g., checkerboards, spirals, or moving cars).
 
-External Dependency: Integration with the graphix library to demonstrate interactive graphics, animation loops, coordinate geometry, and dynamic drawing (e.g., checkerboards, spirals, moving cars).
+---
 
-* [ModularProgrammingAndComposition](./Modular_Programming_and_Composition)
+### 7. 🧮 [Modular Programming and Composition](./Modular_Programming_and_Composition)
+Focuses on clean modular architecture — using helper functions and composition to build interactive tools and games (e.g., scoring systems, eye-tracking mini-games).
 
-Writing clean, modular code using multiple helper functions and composing them to build interactive tools and simple games (e.g., scoring system, eye locator game).
+---
 
-* [FileInputOutputAndProcessing](./File_Input_Output_and_Processing)
+### 8. 📂 [File Input/Output and Processing](./File_Input_Output_and_Processing)
+Covers file reading and writing operations, parsing `.txt` data files, and performing lightweight data processing and reporting.
 
-Reading, writing, and parsing data from external files (.txt) for basic reporting and data cleaning tasks.
+---
 
-# Execution Requirements
+## ⚙️ Execution Requirements
 
-To run the scripts in the External_Libraries_and_Graphics folder, the corresponding graphics library (graphix or similar) must be installed.
+- Some projects require the installation of the **Graphix** (or similar) library to support graphical rendering.  
+- Input text files used by `File_Input_Output_and_Processing` scripts are located in the dedicated `text_files/` directory.  
 
-Data files required for the File_Input_Output_and_Processing scripts are located in the dedicated text_files/ directory.
+---
+
+## 👩‍💻 Author
+**Denisa R.**  
+*Computer Science Student – University of Portsmouth*
