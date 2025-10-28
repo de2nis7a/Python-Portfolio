@@ -14,11 +14,11 @@ The code is categorized into focused directories, showing a progressive understa
 
 # Primary Concepts Demonstrated
 
-* **/Basics_and_Control_Flow**
+* [Basics_and_Control_Flow](./Basics_and_Control_Flow)
 
 Basic I/O, arithmetic, conditional logic (if/elif/else), and fundamental loops (for, while).
 
-* **/Math_and_Geometric_Calculations**
+* [Math_and_Geometric_Calculations](./Math_and_Geometric_Calculations)
 
 Use of the math library for trigonometry, square roots, and solving geometric formulas (e.g., distance, area).
 
