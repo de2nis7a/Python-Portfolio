@@ -18,31 +18,31 @@ The code is categorized into focused directories, showing a progressive understa
 
 Basic I/O, arithmetic, conditional logic (if/elif/else), and fundamental loops (for, while).
 
-* [Math_and_Geometric_Calculations](./Math_and_Geometric_Calculations)
+* [MathAndGeometricCalculations](./Math_and_Geometric_Calculations)
 
 Use of the math library for trigonometry, square roots, and solving geometric formulas (e.g., distance, area).
 
-* **/String_and_Data_Formatting**
+* [StringAndDataFormatting](./String_and_Data_Formatting)
 
 Advanced string manipulation (slicing, split(), upper()), output formatting, and basic data parsing.
 
-* **/Algorithms_and_Logic**
+* [AlgorithmsAndLogic](./Algorithms_and_Logic)
 
 Implementation of classic algorithms (Fibonacci, coin change), logic puzzles, and simple statistical simulations (random walks, dice rolls).
 
-* **/Object_Oriented_Programming**
+* [ObjectOrientedProgramming](./Object_Oriented_Programming)
 
 OOP Systems: Implementation of classes, properties (@property), inheritance, and composition to model real-world systems (Library, Sales, Student Management, Pizza).
 
-* **/External_Libraries_and_Graphics**
+* [ExternalLibrariesAndGraphics](./External_Libraries_and_Graphics)
 
 External Dependency: Integration with the graphix library to demonstrate interactive graphics, animation loops, coordinate geometry, and dynamic drawing (e.g., checkerboards, spirals, moving cars).
 
-* **/ Modular_Programming_and_Composition**
+* [ModularProgrammingAndComposition](./Modular_Programming_and_Composition)
 
 Writing clean, modular code using multiple helper functions and composing them to build interactive tools and simple games (e.g., scoring system, eye locator game).
 
-* **/ File_Input_Output_and_Processing**
+* [FileInputOutputAndProcessing](./File_Input_Output_and_Processing)
 
 Reading, writing, and parsing data from external files (.txt) for basic reporting and data cleaning tasks.
 
