@@ -14,7 +14,7 @@ The code is categorized into focused directories, showing a progressive understa
 
 # Primary Concepts Demonstrated
 
-* [Basics_and_Control_Flow](./Basics_and_Control_Flow)
+* [BasicsAndControlFlow](./Basics_and_Control_Flow)
 
 Basic I/O, arithmetic, conditional logic (if/elif/else), and fundamental loops (for, while).
 
